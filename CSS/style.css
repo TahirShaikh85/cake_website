@@ -1,0 +1,371 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+}
+
+/* start header area here */
+#header{
+    background: linear-gradient(rgba(108, 75, 97, 0.76) 100%, rgba(128, 77, 110, 0) 100%), url("https://1.bp.blogspot.com/-ks0joC2dv-0/YHBU_hbtWNI/AAAAAAAAAEY/PQ4FqXzYiwkht2kZ01AdqWydNFqCYTL7wCLcBGAsYHQ/s0/bg2.png");
+    background-position-y:10%;
+    background-position-x: 60%;
+    height: 100%;
+    min-height: 100vh;
+}
+#header .row{
+    width: 100%;
+}
+#header .row .background img{
+    position: relative;
+    top: 0;
+    right: -9.8%;
+}
+#header ul li{
+    padding: 10px !important;
+}
+#header ul li a{
+    color: #fff !important;
+    font-size: 20px !important;
+    font-family: 'Open Sans', sans-serif;
+}
+#header ul li a:hover{
+    color:#f64040 !important;
+}
+#header a.navbar-brand{
+    color: #f64040 !important;
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+    text-shadow: 4px 4px 10px rgba(245, 59, 87,.54);
+    transform: rotate(-10deg);
+}
+#header button.cake_btn{
+    padding: 10px 20px;
+    background: #f64040;
+    color: #fff;
+    box-shadow: -3px 1px 19px -5px #041424;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+#header button.cake_btn:hover{
+    background: #87e1d8;
+}
+#header .main-headings{
+    padding: 10rem 0;
+}
+#header .main-headings h1{
+    margin: 0 0 0 7rem;
+    font-size: 3.8rem;
+    text-transform: capitalize;
+    color: #ecf0f1;
+    font-family: 'RocknRoll One', sans-serif;
+}
+
+#header .main-headings .headline{
+    margin: 0 0 0 7rem;
+    font-size: 1.3rem;
+    padding: 25px 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #041424;
+    font-weight: bold;
+}
+#header .main-headings .head-button{
+    margin: 1rem 0 0 7rem ;
+}
+#header .main-headings .head-button a{
+    font-size: 1.3rem;
+    background:#87e1d8;
+    padding: 15px 35px;
+    color: #fff;
+    border-radius: 23px;
+    transition: all .5s;
+}
+#header .main-headings .head-button a:hover{
+    background: #f64040;
+}
+/* end header area here */
+
+
+/* start about area here */
+#about{
+    padding: 3rem 0;
+    background: url("../7482.jpg");
+    background-size: cover;
+    background-position-x: 6rem;
+    background-position-y: -9rem;
+}
+#about .about-heading h1, #cake .cake-heading h1, .photo-cake-heading h1, .birthday-cake-heading h1{
+    text-align: center;
+    padding: 20px 0;
+    color:#131111;
+    font-family: 'RocknRoll One', sans-serif;
+    letter-spacing: 2px;
+}
+#about .about-text{
+    text-align: center;
+}
+#about .about-text span{
+    color: #f64040;
+    font-weight: bolder;
+}
+#about .about-text p{
+    line-height: 2rem;
+    font-size: 1.4rem;
+    color: #041424;
+    font-family: 'Lobster', cursive;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+#about .about-text p:nth-child(2){
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    margin-left: 100px;
+    margin-right: 80px;
+    line-height: 2.5rem;
+    font-weight: bold;
+    color: black;
+}
+/* end about area here */
+
+/* start cake area here */
+#cake, #photo-cake, #birthday-cake{
+    padding: 3rem 0;
+    background-color: #fff;
+}
+#cake .cake-heading h1{
+    padding: 30px 0 50px 0;
+}
+#cake .item, #photo-cake .item, #birthday-cake .item{
+    background:#f8e2d6;
+    box-sizing: border-box;
+    padding: 20px;
+    border-bottom-right-radius: 30px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    transition: all .5s;
+}
+#cake img, #photo-cake img, #birthday-cake img{
+    width: 100%;
+    height: 197px;
+    border-bottom-right-radius: 30px;
+}
+#cake h3, #photo-cake h3, #birthday-cake h3{
+    padding: 20px 0;
+}
+#cake p, #photo-cake p, #birthday-cake p{
+    padding: 10px 0 20px 0;
+}
+#cake button.buy-btn, #photo-cake button.buy-btn, #birthday-cake button.buy-btn{
+    margin-bottom: 20px !important;
+    background: #f64040;
+    padding: 10px 30px;
+    color: #fff;
+    box-shadow: 0px 16px 9px -5px #e2e2e2;
+    font-size: 18px;
+    font-weight: bold;
+    transition: all .5s;
+}
+#cake .buy-btn:hover, #photo-cake .buy-btn:hover, #birthday-cake .buy-btn:hover{
+    margin-bottom: 10px !important;
+    background: #87e1d8;
+}
+#card .item img:hover{
+    background-color: rebeccapurple;
+    cursor: pointer;
+}
+.owl-dots{
+    padding: 20px 0;
+}
+.owl-theme .owl-dots .owl-dot span {
+    width: 12px;
+    height: 12px;
+    background: #D6D6D6;
+}
+.owl-theme .owl-dots .owl-dot > .active{
+    background-color: rebeccapurple;
+}
+/* end cake area here */
+
+/* start photo cake area here */
+#photo-cake{
+    padding-bottom: 8rem !important;
+    background-color: #fff;
+}
+#photo-cake .photo-cake-heading h1{
+    padding: 10px 0 10px 0;
+}
+.about-photo-cake p{
+    text-align: center;
+    padding: 10px 0 !important;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+.about-photo-cake p b{
+    color: #f64040;
+}
+#photo-cake img{
+    height: 220px;
+}
+/* end photo cake area here */
+
+/* start birthday special area  */
+#birthday-cake .birthday-cake-heading h1{
+    padding: 10px 0 5px 0;
+}
+.about-birthday-cake p{
+    text-align: center;
+    padding: 10px 0 !important;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+.about-birthday-cake p b{
+    color: #f64040;
+}
+#birthday-cake img{
+    height: 220px;
+}
+/* end birthday special area  */
+
+/* start freshness area here */
+#freshness{
+    padding: 3rem 0;
+    background:#f8e2d6;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+#freshness .freshness-heading h1{
+    text-align: center;
+    padding: 20px 0 40px 0;
+    color:#131111;
+    font-family: 'RocknRoll One', sans-serif;
+    letter-spacing: 2px;
+   
+}
+#freshness .fresh-card{
+    margin: 10px 10px;
+    transition: all .5s;
+}
+#freshness .fresh-card:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: 0px 25px 40px rgb(240 69 6 / 8%);
+}
+#freshness .fresh-card h5{
+    padding: 10px 0;
+    font-weight: bolder;
+}
+#freshness .fresh-card p{
+    padding: 0 0 10px 0;
+}
+/* end freshness area here */
+
+/* start instagram area here */
+#instagram{
+    padding: 6rem 0;
+}
+#instagram img{
+    /* width: 90%; */
+    height: 340px;
+}
+/* end instagram area here */
+
+/* start footer area here */
+#footer{
+    padding: 4rem 0;
+}
+#footer .footer-cakes{
+    text-align: center;
+}
+#footer .footer-logo{
+    padding-bottom: 2rem;
+}
+#footer .footer-logo a{
+    color: #f64040 !important;
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+    text-shadow: 4px 4px 10px rgba(245, 59, 87,.54);
+}
+#footer .footer-info{
+    line-height: 1.7rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    padding-bottom: 1rem;
+    font-weight: 300;
+}
+#footer .footer-follow{
+    padding: 1rem 0;
+}
+#footer .footer-follow i{
+    font-size: 25px;
+    padding: 0 10px;
+    cursor: pointer;
+    color: #f64040;
+    transition: all .5s;
+}
+#footer .footer-follow i:hover{
+    color: #87e1d8;
+}
+#footer .footer-heading{
+    font-size: 24px;
+    padding-bottom: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+#footer ul.footer-cake-list{
+    list-style: none;
+}
+#footer ul li{
+    padding: .3rem 0;
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+}
+#footer .footer-addr{
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 1rem;
+}
+#footer .contact-no{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 1rem;
+    font-weight: bold;
+    color: #f64040;
+    letter-spacing: .3rem;
+}
+.copyright{
+    text-align: center;
+    font-size: 18px;
+    /* font-family: 'Open Sans', sans-serif; */
+    padding-bottom: 1.5rem;
+}
+.copyright i{
+    color: #f64040;
+    font-size: 16px;
+    padding-bottom: 0 .5rem;
+}
+/* end footer area here */
+
+/* start media queries here */
+@media only screen and (max-width:768px){
+    #header .row .background img{
+        position: relative;
+        top: 0;
+        left: -10%;
+        display: none;
+    }
+    #header .main-headings{
+        z-index: 1;
+    }
+    #header .main-headings h1{
+        font-size: 3rem;
+    }
+    #about{
+        background-position-x: 0rem;
+        background-position-y: 0rem;
+    }
+}
+/* end media queries here */
